@@ -17,7 +17,7 @@ def send_email(emne, innhold, til_addr): # Sender en email.
     server.sendmail(fra_addr,til_addr,text)
     server.quit()
 
-emne = 'Test4!'
+emne = 'Test5!'
 tekst = '-' #'Denne email er sendt fra fra ett python program.'
 til = 'ksdraege@gmail.com'
 send_email(emne,tekst,til)
