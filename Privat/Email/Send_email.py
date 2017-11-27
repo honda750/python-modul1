@@ -3,7 +3,7 @@ def send_email(emne, innhold, til_addr): # Sender en email.
     from email.mime.multipart import MIMEMultipart
     from email.mime.text import MIMEText
     fra_addr = 'ksdraege@gmail.com'
-    passord = 'deauville09'
+    passord = 'passord'
     msg = MIMEMultipart()
     msg['From'] = fra_addr
     msg['To'] = til_addr
