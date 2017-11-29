@@ -1,8 +1,11 @@
+"""
+    Functions: Celsius to Farenheit and Fareheit to Celsius.
+"""
+
 def celsiusToFarenheit():
     myInput = int(input('Enter a temperatre in Celsius: '))
     tempInFarenheit = (myInput * 9 +160) / 5
     print('The temp of', myInput, 'in celsius is', tempInFarenheit, (' in fahrenheit'))
-
 
 def farenheitToCelsius():
     myInput = int(input('Enter a temperatre in Farenheit: '))
