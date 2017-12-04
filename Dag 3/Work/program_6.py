@@ -13,4 +13,7 @@ while i <= 4:
 
 myTurtle.right(45)
 myTurtle.forward(70)
+
+
+
 turtle.done()

@@ -1,5 +1,5 @@
 """
-    Turtle:  Draw two squares and a star inside.
+    Turtle utforskning
 """
 import turtle
 import  math
