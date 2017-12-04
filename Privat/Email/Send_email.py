@@ -18,6 +18,6 @@ def send_email(emne, innhold, til_addr): # Sender en email.
     server.quit()
 
 emne = 'Test5!'
-tekst = '-' #'Denne email er sendt fra fra ett python program.'
+tekst = '-' #('Denne email er sendt fra fra ett python program.')
 til = 'ksdraege@gmail.com'
 send_email(emne,tekst,til)
