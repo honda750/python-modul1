@@ -33,8 +33,29 @@ def dag():                                          # Dag
         day = 'Søndag'
     return day
 
+def dag3():                                          # Dag 3 bokstaver
+    day = time.strftime(time.now(), '%A')
+    if (day == 'Monday'):
+        day = 'Man'
+    elif (day == 'Tuesday'):
+        day = 'Tir'
+    elif (day == 'Wednesday'):
+        day = 'Ons'
+    elif (day == 'Thursday'):
+        day = 'Tor'
+    elif (day == 'Friday'):
+        day = 'Fre'
+    elif (day == 'Saturday'):
+        day = 'Lør'
+    elif (day == 'Sunday'):
+        day = 'Søn'
+    return day
+
 
 print(dato())
 print(tidS())
+print(tid())
 print(dag())
-print(dag(), dato(), tid())
+print(dag3())
+print(dag(), dato(), tidS())
+print(dag3(), dato(), tid())
