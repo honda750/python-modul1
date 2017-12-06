@@ -32,10 +32,9 @@ while (end != ('x')):                                           # End the progra
     if (AgeInt >= 13 and AgeInt <= 19):                         # Teenager
         print('Hello teenager!!')
 
-    AgeStr = str(AgeInt)
-
-    if (int(AgeStr[-1]) == 0):                                  # New decade
+    if AgeInt % 10 == 0:                                        # New decade
         print('Welcome to a new decade!!!')
+
 
     BirthYearList = []
     digit = 0
