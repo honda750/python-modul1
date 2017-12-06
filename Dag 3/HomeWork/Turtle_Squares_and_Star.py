@@ -3,28 +3,22 @@
 """
 import turtle
 import  math
+
 myTurtle = turtle.Turtle()
 
-myTurtle.penup()
-myTurtle.setpos(-250,250)
-myTurtle.pendown()
-
 # Draw a square
-i = 0
-while i < 4:
-    myTurtle. forward(500)
-    myTurtle.right(90)
-    i = i + 1
+def drawSquare(startX, startY, side):
+    myTurtle.penup()
+    myTurtle.setpos(startX, startY,)
+    myTurtle.pendown()
+    i = 0
+    while i < 4:
+        myTurtle.forward(side)
+        myTurtle.right(90)
+        i = i + 1
 
-# Draw a square inside the first
-myTurtle.penup()
-myTurtle.setpos(-230,230)
-myTurtle.pendown()
-i = 0
-while i < 4:
-    myTurtle. forward(460)
-    myTurtle.right(90)
-    i = i + 1
+drawSquare(-250,250,500)
+drawSquare(-230,230,460)
 
 # Draw a star inside the squares
 myTurtle.penup()
