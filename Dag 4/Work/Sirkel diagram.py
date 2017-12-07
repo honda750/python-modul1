@@ -3,7 +3,7 @@ import turtle
 def setupTurtle():
     myTurtleInside =  turtle.Turtle()
     myTurtleInside.penup()
-    myTurtleInside.setpos(-300, 0)
+    myTurtleInside.setpos(0, 0)
     myTurtleInside.pendown()
     myTurtleInside.color('red')
     myTurtleInside.pensize(2.5)
@@ -17,14 +17,17 @@ def pulse(high, width):
         myTurtle.color('green')
     else:
         myTurtle.color('red')
-    myTurtle.left((90))
-    myTurtle.forward(high*10)
-    myTurtle.right(90)
-    myTurtle.forward(width)
-    myTurtle.right(90)
-    myTurtle.forward(high*10)
-    myTurtle.left(90)
-    myTurtle.forward(width)
+    myTurtle.circle(100,)
+
+
+#    myTurtle.left((90))
+#    myTurtle.forward(high*10)
+ #   myTurtle.right(90)
+#    myTurtle.forward(width)
+#    myTurtle.right(90)
+#    myTurtle.forward(high*10)
+#    myTurtle.left(90)
+#    myTurtle.forward(width)
 
 myTurtle = setupTurtle()
 for temp in averageTemperaturList:
